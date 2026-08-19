@@ -10,7 +10,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 WIB=ZoneInfo('Asia/Jakarta')
 DURATIONS={'makan':20,'merokok':10,'toilet':5,'bab':15}
-MAX_ACTIVE_LEAVES=3
+MAX_ACTIVE_LEAVES=5
 POLICY_VERSION=os.getenv('POLICY_VERSION','2026-08-07-v1')
 
 DEFAULT_POLICY_RULES=[
